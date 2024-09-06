@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/f-logo.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "wlmIeh-DW78RmHZKA",
+        });
+      })();
+    </script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">
+          <h2>Portfolio</h2>
+        </a>
+      </div>
+      <a href="javascript:void(0);" class="bar" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <div class="topnav" id="myTopnav">
+        <a href="#about" class="active">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="home-page">
+      <div class="profile-pic">
+        <img src="./images/profile-pic.png" alt="profile" />
+      </div>
+      <div class="home-title">
+        <h5 class="pos">Frontend-developer</h5>
+        <h1 class="auth-name">Muhammed Faris</h1>
+        <p>
+          I’m Faris, a web developer specializing in building dynamic and
+          user-friendly websites. I create seamless digital experiences that
+          meet your needs. Browse my projects to see how I can help bring your
+          ideas to life.
+        </p>
+        <div class="btns">
+          <button class="cv-btn">Get started</button>
+          <a href="#contact">
+            <button class="contact-btn">Contact</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <h1>About</h1>
+      <div class="about-content">
+        <p>
+          Hi, I’m Muhammed Faris, a passionate web developer dedicated to
+          crafting exceptional digital experiences. With a strong background in
+          [mention key technologies or skills, e.g., HTML, CSS, JavaScript,
+          React], I specialize in creating responsive, user-friendly websites
+          and applications that solve real-world problems. My approach blends
+          creativity with technical expertise, ensuring every project not only
+          looks great but performs flawlessly. Whether it's building from
+          scratch or enhancing existing platforms, I'm committed to delivering
+          high-quality results that exceed expectations. Let’s connect and bring
+          your ideas to life!
+        </p>
+        <div class="about-img">
+          <img src="./images/design.webp" alt="" />
+        </div>
+      </div>
+      <div class="social-icon">
+        <p>
+          <a href="https://github.com/fariskt/" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/muhammed-faris-2b7552266/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </p>
+        <p><a href="https://www.instagram.com/fariz.kt/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a></p>
+        <p><a href="https://wa.me/qr/HMTSE6ME4QHQE1" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a></p>
+      </div>
+    </div>
+
+    <h1 style="text-align: center" id="skill">Skills</h1>
+    <div class="skill">
+      <div class="skill-items">
+        <div class="web">
+          <h2 style="text-align: center">Web Development</h2>
+          <div>
+            <img src="/images/html.png" alt="" />
+            <img src="/images/css3.svg" alt="" />
+            <img src="/images/JavaScript-logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects" id="project">
+      <h1 style="text-align: center; padding: 20px 0">Projects</h1>
+      <div class="project-items">
+        <div class="pr">
+          <img src="/images/airbnb.jpg" alt="" title="view code" />
+
+          <p>Airbnb website clone using html and css</p>
+          <p><b>Stack used</b> : HTML, CSS</p>
+          <div class="code-view">
+            <button class="view-btn"><a href="https://github.com/fariskt/airbnb-clone">View code</a></button>
+            <button class="demo-btn"><a href="#">Demo</a></button>
+          </div>
+        </div>
+
+        <div class="pr">
+          <img src="/images/nav-w3.png" alt="" />
+          <p>W3 school's Navbar using clone using html and css</p>
+          <p><b>Stack used</b> : HTML, CSS</p>
+          <div class="code-view">
+            <button class="view-btn"><a href="https://github.com/fariskt/w3-navbar" target="_blank">View code</a></button>
+            <button class="demo-btn">Demo</button>
+          </div>
+        </div>
+        <div class="pr">
+          <img
+            src="https://t4.ftcdn.net/jpg/00/61/06/27/360_F_61062796_NF87GPnWV0fQ2LhoYNlyjev0PocRwZj9.jpg"
+            alt=""
+          />
+          <p>Bank account : deposit , withdraw and check Balance</p>
+          <p><b>Stack used</b> : HTML, CSS, JavaScript</p>
+          <div class="code-view">
+            <button class="view-btn"><a href="https://github.com/fariskt/bank-acount-html-css" target="_blank">View code</a></button>
+            <button class="demo-btn">Demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="contact-section">
+        <div class="contact-about">
+          <h1>Let’s make something great together</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          </p>
+          <div class="connect-with">
+            <span><i class="fa-regular fa-envelope"></i></span>
+            <div>
+              <p>Mail me at</p>
+              <p style="color: rgb(104, 43, 226); font-weight: 500">
+                fariskt00@gamil.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-details" id="contact">
+          <form action="">
+            <h2>Send a Message</h2>
+            <div class="name">
+              <input
+                type="text"
+                placeholder="Enter your full name..."
+                id="full_name"
+              />
+            </div>
+            <div class="email">
+              <input type="email" placeholder="Email Address" id="email" />
+            </div>
+            <div class="message">
+              <label for="msg">Your Message</label>
+              <textarea
+                name=""
+                id="message"
+                cols="20"
+                rows="10"
+                placeholder="Enter your message here..."
+              ></textarea>
+            </div>
+            <button onclick="sendEmail()" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section">
+      <p style="text-align: center; color: rgb(106, 104, 104)">
+        Copyright 2024 All right reserved
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
