@@ -262,6 +262,9 @@ html {
   color: rgb(62, 62, 62);
   padding: 5px 10px;
 }
+.contact{
+  padding-top: 50px;
+}
 .contact-about p {
   margin: 0;
 }
